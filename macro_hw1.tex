@@ -59,6 +59,7 @@ New York University \\
 \maketitle
 
 \begin{abstract}
+This document contains the solutions to the problem set I.
 \end{abstract}
 
 \section{Solutions to the problems}
@@ -179,21 +180,34 @@ z^{\frac{1}{2}} + (\dfrac{m - p_z \cdot z}{p_s})^{\frac{1}{2}}
 Taking the first-order derivative with respect to $s$, we get
 \eQb
 \dfrac{\partial U}{\partial z} &=& \dfrac{1}{2}
-\{ z^{-\frac{1}{2}} - \dfrac{p_z}{p_s} \cdot (\dfrac{m-p_z \cdot z}{p_s})^{\frac{-1}{2}} \}
+\{ z^{-\frac{1}{2}} - \dfrac{p_z}{p_s} \cdot (\dfrac{m-p_z \cdot z}{p_s})^{\frac{-1}{2}} \}.
 \eQe
 As we only need to check the first order conditions
 for the optimal solution, we have
 \eQb
--p_s \cdot (\dfrac{m-p_s \cdot s}{p_z})^{\frac{-1}{2}} + s^{\frac{-1}{2}} &=& 0. 
-\eQe
-Moving the first term to the RHS and squaring both sides, we get
-
-\eQb
-z^* &=& 
-\dfrac{p_s}{p_s + p_z} \cdot \dfrac{m}{p_z},
+{z^*}^{-\frac{1}{2}} - \dfrac{p_z}{p_s} \cdot (\dfrac{m-p_z \cdot z^*}{p_s})^{\frac{-1}{2}} &=& 0, 
 \eQe
 where $z^*$ denotes the solution for the $z$ variable in the maximization problem.
-Substituting $z^*$ into the equation $(1)$, we can express $s^*$ as follows: 
+Moving the first term to the RHS, squaring both sides and expressing the power
+of $-1$ explicitly, we get
+\eQb
+\dfrac{1}{z^*} &=& \dfrac{p_z^2}{p_s^2} \cdot \dfrac{p_s}{m - p_z \cdot z^*}.
+\eQe
+Canceling the $p_s$ factor on the RHS and multiplying $z^* \cdot p_s \cdot 
+(m - p_z \cdot z^*)$ to both sides yields
+\eQb
+z^* \cdot p_z^2 &=& p_s \cdot (m- p_z \cdot z^*).
+\eQe
+Re-arranging the terms, we get
+\eQb
+p_z \cdot (p_z + p_s ) \cdot z^* = p_s \cdot m.
+\eQe
+Isolating the $z^*$ variable gives
+\eQb
+z^* &=& 
+\dfrac{p_s}{p_s + p_z} \cdot \dfrac{m}{p_z}.
+\eQe
+Substituting $z^*$ into the equation $(1)$, we can also express $s^*$ as follows: 
 \eQb
 s^* &=& \dfrac{m - p_z \cdot \dfrac{p_s}{p_s + p_z} \cdot \dfrac{m}{p_z}}{p_s}.
 \eQe
@@ -201,9 +215,9 @@ Factoring out $\dfrac{m}{p_z}$ and simplifying the subtraction at the denominato
 \eQb
 s^* &=& \dfrac{p_z}{p_s + p_z} \cdot \dfrac{m}{p_s},
 \eQe
-which completes the solution.
+which completes the task of finding the explicit solution to the given maximization problem.
 
-\smallskip
+\pagebreak
 
 \textbf{(6)}
 Pizza is a normal good because by definition a normal good is good whose 
