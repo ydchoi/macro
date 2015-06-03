@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  2 JUN 2015 19:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 JUN 2015 09:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -560,24 +560,34 @@ Package pdftex.def Info: iso.jpg used on input line 172.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
-[2] [3 <./iso.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+
+Underfull \vbox (badness 6445) has occurred while \output is active []
+
+ [2]
+<graph3.jpg, id=26, 750.805pt x 715.67375pt>
+File: graph3.jpg Graphic file (type jpg)
+ <use graph3.jpg>
+Package pdftex.def Info: graph3.jpg used on input line 189.
+(pdftex.def)             Requested size: 337.86465pt x 322.06113pt.
+ [3 <./iso.jpg> <./graph3.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./macro_hw2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `macro_hw2.out' has not changed.
 (rerunfilecheck)             Checksum: 9503FEE8F5DFB139AB81FB90523D0745;60.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 10591 strings out of 493315
- 156780 string characters out of 6137904
- 257534 words of memory out of 5000000
- 13901 multiletter control sequences out of 15000+600000
+ 10598 strings out of 493315
+ 156871 string characters out of 6137904
+ 256534 words of memory out of 5000000
+ 13905 multiletter control sequences out of 15000+600000
  14381 words of font info for 35 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,8n,39p,255b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,39p,803b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
@@ -587,10 +597,10 @@ e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
 13/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013
 /texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb>
-Output written on macro_hw2.pdf (3 pages, 170441 bytes).
+Output written on macro_hw2.pdf (4 pages, 197181 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 14 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 19 words of extra memory for PDF output out of 10000 (max. 10000000)
 
