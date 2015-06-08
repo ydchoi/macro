@@ -64,10 +64,81 @@ This document contains the solutions to the problem set III.
 
 \section{Solutions to the problems}
 
-\begin{question}[1. Elasticity]
+\begin{question}[1. RC Economy]
 \end{question}
 \begin{solution}
-\textbf{(1)}
+\textbf{(1)} We are given the RC economy such that RC preferences over $C$ and $L$ is
+given by 
+\eQb
+U(C,L) = -\dfrac{1}{3}C^{-3} - \dfrac{1}{2}L^2,
+\eQe
+which can be re-written in terms of $C$ and $O$ as
+\eQb
+U(C,O) = -\dfrac{1}{3}C^{-3} - \dfrac{1}{2}(1-O)^2,
+\eQe
+and the production technology is given by 
+\eQb
+F(K,L) &=& AK^{\frac{1}{3}}L^{\frac{2}{3}}.
+\eQe
+With $K$ fixed, we want to find the solution to the RC problem.
+We first compute the tangency condition of $MRS_{\text{O for C}} = MPL$. To compute $MRS$ on the
+LHS, we first take the partials with respect to first and second variable, obtaining
+\eQb
+U_{1}(C,O) &=& C^{-4} \\
+U_{2}(C,O) &=& 1-O \\
+&=& L.
+\eQe
+Hence, we have that
+\eQb
+MRS_{\text{O for C}} &=& \dfrac{U_{2}(C, O)}{U_{1}(C,O)} \\
+&=& L{C^4}.
+\eQe
+
+Computing the MPL, we obtain
+\eQb
+MPL &=& F_{L}(K,L) \\
+&=& \dfrac{2}{3}AK^{\frac{1}{3}}L^{-\frac{1}{3}}.
+\eQe
+Therefore, via substitution, we have the tangency condition as
+\eQb
+LC^4 &=& \dfrac{2}{3}AK^{\frac{1}{3}}L^{-\frac{1}{3}}.
+\eQe
+With the constraint is given by $C = F(K,L)$, by substitution we have the explicit constraint as
+\eQb
+C &=& AK^{\frac{1}{3}}L^{\frac{2}{3}}.
+\eQe
+Substituting the above equation into the tangency condition and re-arranging, we have 
+\eQb
+L = \dfrac{2}{3}\dfrac{AK^{\frac{1}{3}}L^{-\frac{1}{3}}}{A^4K^{\frac{4}{3}}L^{\frac{8}{3}}}. 
+\eQe
+Simplifying gives
+\eQb
+L &=& \dfrac{2}{3}A^{-3}K^{-1}L^{-3}. \\
+\eQe
+Moving $L$ on the RHS to LHS and explictly solving for it, we get
+\eQb
+L^* &=& (\dfrac{2}{3}A^{-3}K^{-1})^{\frac{1}{4}}.
+\eQe
+So, the consumption is,
+\eQb
+C^* &=& AK^{\frac{1}{3}}{(\dfrac{2}{3}A^{-3}K^{-1})}^{\frac{1}{4}} \\
+&=& (\dfrac{2}{3})^{\frac{1}{4}}A^{\frac{1}{4}}K^{\frac{1}{12}} \\
+&=& (\dfrac{2}{3}AK^{\frac{1}{3}})^{\frac{1}{4}}.
+\eQe
+Hence, we have computed the solution to RC's problem.
+
+\smallskip
+
+\textbf{(2)}
+$L$ is not increasing in $A$. It is, in fact, decreasing as we have $A^{-3}$ in the computed solution.
+L is an inferior good. Hence, the income effect is $C$ goes up and $O$ goes down, therefore $L$ goes up.
+The opportunity cost of leisure became relatively more expansive, so RC substitutes toward $C$.
+\smallskip
+
+\textbf{(3)}
+The effect of a natural disaster, which translates to reduction of the quantity $K$, will decrease
+the consumption, but will increase the labor. This comes from a direct relationship 
+we have from the computed solutions above.
 \end{solution}
 \end{document}
 
