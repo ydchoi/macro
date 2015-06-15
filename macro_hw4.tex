@@ -35,7 +35,7 @@
 
 
 \author{
-Group 7: Youngduck Choi, Noah Gentile, Yuliya Takh \\
+Group 8: Youngduck Choi, Noah Gentile, Yuliya Takh \\
 New York University \\
 }
 
@@ -59,86 +59,174 @@ New York University \\
 \maketitle
 
 \begin{abstract}
-This document contains the solutions to the problem set III.
+This document contains the solutions to the problem set IV.
 \end{abstract}
 
 \section{Solutions to the problems}
 
-\begin{question}[1. RC Economy]
+\begin{question}[1]
 \end{question}
 \begin{solution}
-\textbf{(1)} We are given the RC economy such that RC preferences over $C$ and $L$ is
-given by 
+\textbf{(a)}
+We are given the demand function as follow:
 \eQb
-U(C,L) = -\dfrac{1}{3}C^{-3} - \dfrac{1}{2}L^2,
+C_1^{A} &=& \dfrac{1 + \rho_A}{2 + \rho_A} (Y_1^{A} + \dfrac{Y_2^{A}}{1 + r }), \\
+C_1^{B} &=& \dfrac{1 + \rho_B}{2 + \rho_B} (Y_1^{B} + \dfrac{Y_2^{B}}{1 + r }), \\
+C_2^{A} &=& \dfrac{1 + r}{2 + \rho_A} (Y_1^{A} + \dfrac{Y_2^{A}}{1 + r }), \\
+C_2^{B} &=& \dfrac{1 + r}{2 + \rho_B} (Y_1^{B} + \dfrac{Y_2^{B}}{1 + r }). \\
 \eQe
-which can be re-written in terms of $C$ and $O$ as
+We have that $S = Y_1 - C_1$. Therefore, we can compute $S$s as
 \eQb
-U(C,O) = -\dfrac{1}{3}C^{-3} - \dfrac{1}{2}(1-O)^2,
+S_A &=& Y_1^{A} - C_1^{A}, \\
+S_B &=& Y_1^{B} - C_1^{B},
 \eQe
-and the production technology is given by 
-\eQb
-F(K,L) &=& AK^{\frac{1}{3}}L^{\frac{2}{3}}.
-\eQe
-With $K$ fixed, we want to find the solution to the RC problem.
-We first compute the tangency condition of $MRS_{\text{O for C}} = MPL$. To compute $MRS$ on the
-LHS, we first take the partials with respect to first and second variable, obtaining
-\eQb
-U_{1}(C,O) &=& C^{-4} \\
-U_{2}(C,O) &=& 1-O \\
-&=& L.
-\eQe
-Hence, we have that
-\eQb
-MRS_{\text{O for C}} &=& \dfrac{U_{2}(C, O)}{U_{1}(C,O)} \\
-&=& L{C^4}.
-\eQe
+where $C_1^{A}$ and $C_1^{B}$ are values which can be computed from the previous equality.
+\smallskip
 
-Computing the MPL, we obtain
+\textbf{(b)}
+We are given a general solution for the equilbrium interest rate as follows:
 \eQb
-MPL &=& F_{L}(K,L) \\
-&=& \dfrac{2}{3}AK^{\frac{1}{3}}L^{-\frac{1}{3}}.
+r^* &=& \dfrac{\frac{1 + \rho_A}{2 + \rho_A}{Y_2}^A 
++ \frac{1 + \rho_B}{2 + \rho_B}{Y_2}^B}{
+\frac{1}{2 + \rho_A}{Y_1}^A
++ \frac{1}{2 + \rho_B}{Y_1}^B} - 1.
 \eQe
-Therefore, via substitution, we have the tangency condition as
+As we have $\rho_A = \rho_B = \rho$ assumption, we can further simplify the above solution as
 \eQb
-LC^4 &=& \dfrac{2}{3}AK^{\frac{1}{3}}L^{-\frac{1}{3}}.
+r^* &=& 
+(1 + \rho) \dfrac{({Y_2}^A + {Y_2}^B)} {
+({Y_1}^A + {Y_1}^B)} - 1.
 \eQe
-With the constraint is given by $C = F(K,L)$, by substitution we have the explicit constraint as
-\eQb
-C &=& AK^{\frac{1}{3}}L^{\frac{2}{3}}.
-\eQe
-Substituting the above equation into the tangency condition and re-arranging, we have 
-\eQb
-L = \dfrac{2}{3}\dfrac{AK^{\frac{1}{3}}L^{-\frac{1}{3}}}{A^4K^{\frac{4}{3}}L^{\frac{8}{3}}}. 
-\eQe
-Simplifying gives
-\eQb
-L &=& \dfrac{2}{3}A^{-3}K^{-1}L^{-3}. \\
-\eQe
-Moving $L$ on the RHS to LHS and explictly solving for it, we get
-\eQb
-L^* &=& (\dfrac{2}{3}A^{-3}K^{-1})^{\frac{1}{4}}.
-\eQe
-So, the consumption is,
-\eQb
-C^* &=& AK^{\frac{1}{3}}{(\dfrac{2}{3}A^{-3}K^{-1})}^{\frac{1}{4}} \\
-&=& (\dfrac{2}{3})^{\frac{1}{4}}A^{\frac{1}{4}}K^{\frac{1}{12}} \\
-&=& (\dfrac{2}{3}AK^{\frac{1}{3}})^{\frac{1}{4}}.
-\eQe
-Hence, we have computed the solution to RC's problem.
 
 \smallskip
 
-\textbf{(2)}
-$L$ is not increasing in $A$. It is, in fact, decreasing as we have $A^{-3}$ in the computed solution.
-L is an inferior good. Hence, the income effect is $C$ goes up and $O$ goes down, therefore $L$ goes up.
-The opportunity cost of leisure became relatively more expansive, so RC substitutes toward $C$.
+\textbf{(c)} 
+Yes, $r^*$ is a function of total/aggregate endowments, as we can see from the above equation.
+The real interest rate would not change if the endowments were redistributed.
+Because the total is still the same.
+
+\pagebreak
+
+\textbf{(d)}
+We first compute the saving of Anne. First note that we can do further derivation on $S_A$ 
+and obtain
+\eQb
+S^* = \dfrac{1}{2 + \rho} ( Y_1 - \dfrac{1 + \rho}{1 + r^* } Y_2).
+\eQe
+Substituting the $r^*$ into the above equation, we have
+\eQb
+S_A^* = \dfrac{1}{2 + \rho} ( Y_1^A - \dfrac{1 + \rho}{
+(1 + \rho) \frac{({Y_2}^A + {Y_2}^B)} {
+({Y_1}^A + {Y_1}^B)}} Y_2^A).
+\eQe
+Simplifying further gives,
+\eQb
+S_A^* &=& \dfrac{1}{2 + \rho} ( Y_1^A - \dfrac
+{({Y_1}^A + {Y_1}^B)} 
+{({Y_2}^A + {Y_2}^B)} 
+Y_2^A).
+\eQe
+
+The information given is not complete to deduce whether or not Anne will be saving or borrowing
+in the new equilibrium. We need to know the relation between $Y_1$ and $Y_2$, to see that
+second term in the saving computation is either positive or negative. The information is not given.
+If we take $Y_1^A = Y$ as an implicit assumption, Anne will be borrwing as $Y_1^B$ will be higher,
+causing the second term in the saving computation to be negative.
+
 \smallskip
 
-\textbf{(3)}
-The effect of a natural disaster, which translates to reduction of the quantity $K$, will decrease
-the consumption, but will increase the labor. This comes from a direct relationship 
-we have from the computed solutions above.
+\textbf{(e)}
+This is the same situation as the previous part. We can use the relation that $S = Y - C$ and
+compute the $C$ as $C = Y - S$, using the above equation. We realize that this is a negative linear
+relation with a $Y$ being a fixed y-intercept. Hence, Anne's consumption will increase with Bob's 
+endowment increasing (saving will decrease with increase in $Y_B^1$ which will mean that the consumption
+increases with a fixed endowment for Ann.
+
 \end{solution}
+
+\pagebreak
+
+\begin{question}[2]
+\end{question}
+\begin{solution}
+\textbf{(a)}
+We are given a general solution for the equilbrium interest rate as follows:
+\eQb
+r^* &=& \dfrac{\frac{1 + \rho_A}{2 + \rho_A}{Y_2}^A 
++ \frac{1 + \rho_B}{2 + \rho_B}{Y_2}^B}{
+\frac{1}{2 + \rho_A}{Y_1}^A
++ \frac{1}{2 + \rho_B}{Y_1}^B} - 1.
+\eQe
+Substituting $Y$ for all instances of endowment variables and simplifying, we obtain
+\eQb
+r^* &=& \dfrac{\frac{1 + \rho_A}{2 + \rho_A}
++ \frac{1 + \rho_B}{2 + \rho_B}}{
+\frac{1}{2 + \rho_A}
++ \frac{1}{2 + \rho_B}} - 1.
+\eQe
+Multiplying both numerator and denominator yields
+\eQb
+r^* &=& \dfrac{(1 + \rho_A)(2 + \rho_B) + (1+\rho_B)(2 + \rho_A)}{
+2 + \rho_B + 2 + \rho_A} - 1
+\eQe
+Expanding the denominator and simplying the numerator, we get
+\eQb
+r^* &=& \dfrac{4 + 3\rho_A + 3\rho_B + 2\rho_A \rho_B}
+{4 + \rho_B + \rho_A} - 1.
+\eQe
+Combining the $-1$ term into the fraction, and factoring out $2$ we get
+\eQb
+r^* &=& 2\dfrac{\rho_A + \rho_B + \rho_A \rho_B}
+{4 + \rho_B + \rho_A},
+\eQe
+as desired.
+
+\bigskip
+
+\textbf{(b)} Recall that the consumer actually saves if 
+$\dfrac{Y_1}{Y_2} > \dfrac{1 + \rho}{1 + r}$. Therefore, 
+as $\rho_A > r^*$ and $Y_1 = Y_2 = Y$, we have $1 < \dfrac{1+ \rho}{1 + r^*}$.
+Hence, with the equilibrum interest rate Anne is a borrower in the first period. 
+
+\end{solution}
+
+\bigskip
+
+\begin{question}[3]
+\end{question}
+\begin{solution}
+\textbf{(a)}
+We are given a general solution for the equilbrium interest rate as follows:
+\eQb
+r^* &=& \dfrac{\frac{1 + \rho_A}{2 + \rho_A}{Y_2}^A 
++ \frac{1 + \rho_B}{2 + \rho_B}{Y_2}^B}{
+\frac{1}{2 + \rho_A}{Y_1}^A
++ \frac{1}{2 + \rho_B}{Y_1}^B} - 1.
+\eQe
+Substituting the given conditions into the equation gives,
+\eQb
+r^* &=& \dfrac{\frac{1 + \rho}{2 + \rho}Y}{
+\frac{1}{2 + \rho}Y} - 1.
+\eQe
+Further simplification yields
+\eQb
+r^* &=& \rho.
+\eQe
+\textbf{(b)} As $r^* = \rho$, by substituting to the derived demand function,
+we can see that Anne's consumption path is constant over time (i.e. ${C_1}^{A} = {C_2}^{B}$).
+Bob's consumption path is also constant over time, as they share the same impatience.
+\end{solution}
+
+
 \end{document}
+
+
+
+
+
+
+
+
+
+
 
